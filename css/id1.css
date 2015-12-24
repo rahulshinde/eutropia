@@ -95,6 +95,14 @@ a:visited {
 	color: black;
 }
 
+.id1-content p {
+	width: 95%;
+	margin-top: 10px;
+	margin-left: 2.5%;
+	font-size: 12px;
+	text-align: left;
+}
+
 .nav h1 {
 	padding: 3px;
 	padding-bottom: 5px;

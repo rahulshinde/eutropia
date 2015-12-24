@@ -38,6 +38,15 @@ $(document).ready( function() {
         $('body,html').animate({scrollTop: 0 ,}, 0);
     });
 
+    $("#id4").on("click", function() {
+        $(".content").load("id4.html");
+        $('.section').removeClass('visible');
+        $('#id4').addClass('visible');
+
+        //scroll
+        $('body,html').animate({scrollTop: 0 ,}, 0);
+    });
+
     $("#app1").on("click", function() {
         $(".content").load("app1.html");
         $('.section').removeClass('visible');
