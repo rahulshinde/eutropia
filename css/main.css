@@ -80,9 +80,38 @@ h1, p {
 	font-family: monospace;
 }
 
+.content h1 {
+	font-family: 'Galdeano', sans-serif;
+	font-size: 36px;
+
+}
+
 .nav h1 {
+	padding: 3px;
+	padding-bottom: 5px;
 	font-size: 10px;
 	text-decoration: underline;
+	cursor: pointer;
+}
+
+.nav h1:hover {
+	background-color: black;
+	color: white;
+}
+
+.nav h1.no-underline,
+.nav h1.no-underline:hover {
+	padding: 0;
+	padding-top: 3px;
+	background-color: white;
+	color: black;
+	cursor: auto;
+	text-decoration: none;
+}
+
+a:link,
+a:visited {
+	color: black;
 }
 
 
@@ -91,15 +120,26 @@ h1, p {
 	=========================== */
 
 .content-left {
-	width: 85%;
+	width: 81%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 .nav {
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content:space-around;
+	justify-content:space-between;
 	width: 100%;
 	margin-top: 30px;
+}
+
+.content {
+	position: absolute;
+	top: 100px;
+	bottom: 20px;
+	width: 81%;
+
+	overflow-y: scroll;
 }
 
 /* 	===========================
@@ -111,6 +151,7 @@ h1, p {
 	flex-wrap: wrap;
 	flex-flow: center;
 	width: 15%;
+	height: 100%;
 }
 
 .info-right p {
@@ -124,4 +165,14 @@ h1, p {
 	margin-right: auto;
 	margin-bottom: 40px;
 	margin-left: auto;
+}
+
+.info-right img.logo {
+	margin-bottom: 0px;
+}
+
+.info-right img.sub {
+	width: 70%;
+	height: 70%;
+	margin-left: 15%;
 }
