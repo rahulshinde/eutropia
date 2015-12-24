@@ -100,7 +100,8 @@ h1, p {
 }
 
 h1.visible {
-	
+	background-color: black;
+	color: white;
 }
 
 .nav h1.no-underline,
