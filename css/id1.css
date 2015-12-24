@@ -64,7 +64,7 @@ table {
 	/*outline: 1px solid rgb(0,0,255);*/
 }
 
-.id-container {
+.container {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content:space-between;
@@ -97,13 +97,25 @@ a:visited {
 
 
 /* 	===========================
-		CONTENT-LEFT
+		GENERAL
 	=========================== */
 
 .p1,
 .p2,
 .p3 {
 	width: 33%;
+	overflow-y: scroll;
+
+}
+
+.p1 h1,
+.p2 h1,
+.p3 h1 {
+	padding-bottom: 20px;
+	width: 33%;
+	background-color: white;
+	position: absolute;
+	z-index: 20;
 
 }
 
@@ -112,4 +124,16 @@ a:visited {
 
 	border-right:1px solid black;
 	
+}
+
+.id1-content {
+	position: relative;
+	top: 50px;
+	bottom: 0;
+	width: 100%;
+	overflow-y:scroll;
+}
+
+.id1-content img {
+	width: 100%;
 }
