@@ -70,55 +70,7 @@ table {
 	background-color: white;
 }
 
-
-p {
-	margin-top: -60px;
-	font-family: 'Rubik', serif;
-	font-weight: 300;
-	font-size: 18px;
-	color: black;
-	text-align: center;
-}
-
-.bold {
-	font-weight: 500;
-}
-
 /* 	===========================
-		PLACEHOLDER
+		TYPOGRAPHY
 	=========================== */
 
-.placeholder {
-	float: left;
-	margin-top: 60px;
-	width: 60%;
-}
-
-img {
-	width: 60%;
-	margin-left:20%;
-}
-
-/* 	===========================
-		BACK TO HOME
-	=========================== */
-
-.back {
-	margin-right: 40px;
-}
-
-.back a:link,
-.back a:visited {
-	position: fixed;
-	left: 5px;
-	bottom: 5px;
-	margin-top: 50px;
-	margin-right: 40px;
-	font-size: 16px;
-	font-family: 'Rubik', serif;
-	font-weight: 500;
-
-	text-decoration: none;
-		color: black;
-
-}
