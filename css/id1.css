@@ -1,5 +1,5 @@
 /* 	================= 
-		MAIN.CSS
+		ID1.CSS
 	================= */
 
 
@@ -64,9 +64,10 @@ table {
 	/*outline: 1px solid rgb(0,0,255);*/
 }
 
-.container {
+.id-container {
 	display: flex;
 	flex-wrap: nowrap;
+	justify-content:space-between;
 	height: 100%;
 	width: 100%;
 	background-color: white;
@@ -76,42 +77,17 @@ table {
 		TYPOGRAPHY
 	=========================== */
 
-h1, p {
-	font-family: monospace;
-}
-
-.content h1 {
+.p1,
+.p2,
+.p3 {
 	font-family: 'Galdeano', sans-serif;
 	font-size: 36px;
+	text-align: center;
 
 }
 
-.nav h1 {
-	padding: 3px;
-	padding-bottom: 5px;
-	font-size: 10px;
-	text-decoration: underline;
-	cursor: pointer;
-}
-
-.nav h1:hover {
-	background-color: black;
-	color: white;
-}
-
-h1.visible {
-	background-color: black;
-	color: white;
-}
-
-.nav h1.no-underline,
-.nav h1.no-underline:hover {
-	padding: 0;
-	padding-top: 3px;
-	background-color: white;
-	color: black;
-	cursor: auto;
-	text-decoration: none;
+h1, p {
+	font-family: monospace;
 }
 
 a:link,
@@ -124,68 +100,16 @@ a:visited {
 		CONTENT-LEFT
 	=========================== */
 
-.content-left {
-	width: 81%;
-	margin-left: 2%;
-	margin-right: 2%;
+.p1,
+.p2,
+.p3 {
+	width: 33%;
+
 }
 
-.nav {
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content:space-between;
-	width: 100%;
-	margin-top: 30px;
-}
+.p1,
+.p2{
 
-.content {
-	position: absolute;
-	top: 100px;
-	bottom: 20px;
-	width: 81%;
-
-	overflow-y: scroll;
-}
-
-/* 	===========================
-		INFO-RIGHT
-	=========================== */
-
-.info-right {
-	display: flex;
-	flex-wrap: wrap;
-	flex-flow: center;
-	width: 15%;
-	height: 100%;
-}
-
-.info-right p {
-	margin-top: 120px;
-	margin-bottom: 40px;
-}
-
-.info-right img {
-	width: 90%;
-	height: 90%;
-	margin-right: auto;
-	margin-bottom: 40px;
-	margin-left: auto;
-}
-
-.info-right img.logo {
-	margin-bottom: 0px;
-}
-
-.info-right img.sub {
-	width: 70%;
-	height: 70%;
-	margin-left: 15%;
-}
-
-.info-right a:link,
-.info-right a:visited {
-	width: 100%;
-	font-family: monospace;
-	text-align: center;
-	color: rgba(0,0,0,0.3)
+	border-right:1px solid black;
+	
 }
