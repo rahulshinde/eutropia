@@ -1,0 +1,195 @@
+/* 	================= 
+		ID3.CSS
+	================= */
+
+
+/* !!! CSS RESET !!! */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 	==============================================
+		BEGIN AUTHOR STYLING
+	============================================== */
+
+
+* {
+	/*background-color: rgba(255, 0, 0, 0.2);*/
+	/*outline: 1px solid rgb(0,0,255);*/
+}
+
+.container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content:space-between;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+/* 	===========================
+		TYPOGRAPHY
+	=========================== */
+
+.p1,
+.p2,
+.p3 {
+	font-family: 'Galdeano', sans-serif;
+	font-size: 36px;
+	text-align: center;
+
+}
+
+h1, p {
+	font-family: monospace;
+}
+
+a:link,
+a:visited {
+	color: black;
+}
+
+.id1-content p {
+	width: 95%;
+	margin-top: 10px;
+	margin-left: 2.5%;
+	font-size: 12px;
+	text-align: left;
+}
+
+.nav h1 {
+	padding: 3px;
+	padding-bottom: 5px;
+	font-size: 10px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.nav h1:hover {
+	background-color: black;
+	color: white;
+}
+
+h1.visible {
+	background-color: black;
+	color: white;
+}
+
+.nav h1.no-underline,
+.nav h1.no-underline:hover {
+	padding: 0;
+	padding-top: 3px;
+	background-color: white;
+	color: black;
+	cursor: auto;
+	text-decoration: none;
+}
+
+
+/* 	===========================
+		GENERAL
+	=========================== */
+
+.p1,
+.p2,
+.p3 {
+	width: 33%;
+	overflow-y: scroll;
+
+}
+
+.p1 h1,
+.p2 h1,
+.p3 h1 {
+	padding-bottom: 20px;
+	width: 33%;
+	background-color: white;
+	position: absolute;
+	z-index: 20;
+
+}
+
+.p1,
+.p2{
+
+	border-right:1px solid black;
+	
+}
+
+.id1-content {
+	position: relative;
+	top: 50px;
+	bottom: 0;
+	width: 100%;
+	overflow-y:scroll;
+}
+
+.id1-content img {
+	width: 100%;
+}
+
+/* 	=============================
+		IMAGES
+	============================= */
+
+img.img-top2 {
+	margin-top: 10px;
+}
+
+img.img-top3 {
+	margin-top: 15px;
+}
+
+img.img-bottom1 {
+	margin-bottom: 9px;
+}
+
+img.img-bottom2 {
+	margin-bottom: 3px;
+}
