@@ -173,3 +173,40 @@ h1.visible {
 .id1-content img {
 	width: 100%;
 }
+
+/* 	=============================
+		PHASE LABELS / IMAGES
+	============================= */
+
+p.label-top1 {
+	margin-top: 60px;
+}
+
+p.label-top2 {
+	margin-top: 48px;
+}
+
+p.label-top3 {
+	margin-top: 36px;
+}
+
+p.other-label {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+img.img-top2 {
+	margin-top: 10px;
+}
+
+img.img-top3 {
+	margin-top: 15px;
+}
+
+img.img-bottom1 {
+	margin-bottom: 9px;
+}
+
+img.img-bottom2 {
+	margin-bottom: 3px;
+}
