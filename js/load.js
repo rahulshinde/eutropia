@@ -8,7 +8,7 @@ $(document).ready( function() {
         $('#trade').addClass('visible');
 
         //scroll
-        $('body,html').animate({scrollTop: 0 ,}, 0);
+        
     });
 
     $("#id1").on("click", function() {
