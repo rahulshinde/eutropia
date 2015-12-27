@@ -46,3 +46,7 @@ img#img-first {
 img#img-last {
 	margin-right: 0;
 }
+
+img.img-bottom {
+	margin-bottom: 20px;
+}

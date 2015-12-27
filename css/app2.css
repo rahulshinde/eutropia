@@ -46,3 +46,7 @@ img.img-full {
 	width: 100%;
 	margin-bottom: 3%;
 }
+
+img.img-bottom {
+	margin-bottom: 20px;
+}
