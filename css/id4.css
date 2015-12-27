@@ -80,6 +80,10 @@ h1, p {
 	font-family: monospace;
 }
 
+p {
+	line-height: 16px;
+}
+
 .nav h1 {
 	padding: 3px;
 	padding-bottom: 5px;

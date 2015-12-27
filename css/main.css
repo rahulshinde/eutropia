@@ -82,6 +82,7 @@ h1, p {
 
 p.title {
 	text-align: right;
+	margin-top: 4px;
 	margin-right: 10px;
 	width: 100%;
 }

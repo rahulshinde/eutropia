@@ -90,6 +90,10 @@ h1, p {
 	font-family: monospace;
 }
 
+p {
+	line-height: 16px;
+}
+
 a:link,
 a:visited {
 	color: black;

@@ -1,5 +1,5 @@
 /* 	================= 
-		ID2.CSS
+		TEXT.CSS
 	================= */
 
 
@@ -64,12 +64,6 @@ table {
 	/*outline: 1px solid rgb(0,0,255);*/
 }
 
-.container {
-	height: 100%;
-	max-width: 100%;
-	background-color: white;
-}
-
 /* 	===========================
 		TYPOGRAPHY
 	=========================== */
@@ -82,9 +76,17 @@ p {
 	line-height: 16px;
 }
 
-h1.description {
-	margin-top: 20px;
-	margin-bottom: 3%;
+p.title {
+	text-align: right;
+	margin-top: 4px;
+	margin-right: 10px;
+	width: 100%;
+}
+
+.content h1 {
+	font-family: 'Galdeano', sans-serif;
+	font-size: 36px;
+
 }
 
 .nav h1 {
@@ -118,32 +120,4 @@ h1.visible {
 a:link,
 a:visited {
 	color: black;
-}
-
-/* 	===========================
-		IMGS
-	=========================== */
-
-.id1-content {
-	position: relative;
-	top: 50px;
-	bottom: 0;
-	width: 100%;
-	overflow-y:scroll;
-}
-
-img.img-half {
-	margin-left: 23%;
-	width: 54%;
-	height: auto;
-}
-
-img.img-full1 {
-	width: 100%;
-	margin-bottom: 20px;
-}
-
-img.img-full2 {
-	width: 100%;
-	margin-bottom: 40px;
 }
