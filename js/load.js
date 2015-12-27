@@ -8,7 +8,7 @@ $(document).ready( function() {
         $('#trade').addClass('visible');
 
         //scroll
-        $('body,html').animate({scrollTop: 0}, 0);
+        $('body,html').animate({scrollTop: 0 ,}, 0);
     });
 
     $("#id1").on("click", function() {
@@ -17,7 +17,7 @@ $(document).ready( function() {
         $('#id1').addClass('visible');
 
         //scroll
-        $('body,html').animate({scrollTop: 0}, 0);
+        $('body,html').animate({scrollTop: 0 ,}, 0);
     });
 
     $("#id2").on("click", function() {
@@ -26,7 +26,7 @@ $(document).ready( function() {
         $('#id2').addClass('visible');
 
         //scroll
-        $('body,html').animate({scrollTop: 0}, 0);
+        $('body,html').animate({scrollTop: 0 ,}, 0);
     });
 
     $("#id3").on("click", function() {
@@ -35,7 +35,7 @@ $(document).ready( function() {
         $('#id3').addClass('visible');
 
         //scroll
-        $('body,html').animate({scrollTop: 0}, 0);
+        $('body,html').animate({scrollTop: 0 ,}, 0);
     });
 
     $("#id4").on("click", function() {
@@ -44,7 +44,7 @@ $(document).ready( function() {
         $('#id4').addClass('visible');
 
         //scroll
-        $('body,html').animate({scrollTop: 0}, 0);
+        $('body,html').animate({scrollTop: 0 ,}, 0);
     });
 
     $("#app1").on("click", function() {
@@ -53,7 +53,7 @@ $(document).ready( function() {
         $('#app1').addClass('visible');
 
         //scroll
-        $('body,html').animate({scrollTop: 0}, 0);
+        $('body,html').animate({scrollTop: 0 ,}, 0);
     });
 
     $("#app2").on("click", function() {
@@ -62,7 +62,7 @@ $(document).ready( function() {
         $('#app2').addClass('visible');
 
         //scroll
-        $('body,html').animate({scrollTop: 0}, 0);
+        $('body,html').animate({scrollTop: 0 ,}, 0);
     });
 
 });
