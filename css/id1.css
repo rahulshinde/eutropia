@@ -135,3 +135,46 @@ img.img-bottom1 {
 img.img-bottom2 {
 	margin-bottom: 3px;
 }
+
+/* 	=============================
+		MEDIA QUERIES
+	============================= */
+
+@media screen and (max-width: 680px) {
+	.container {
+		width: 100%;
+	}
+
+	.content-left {
+		width: 100%;
+		margin-bottom: 3%;
+	}
+
+	.id1-content {
+		position: relative;
+		top: 50px;
+		width: 100%;
+		height: auto;
+		overflow-y:hidden;
+	}
+
+	.p1 h1,
+	.p2 h1,
+	.p3 h1 {
+		z-index: 10;
+
+	}
+
+	.p2 {
+		overflow: hidden;
+	}
+
+	img.img-bottom1 {
+		margin-bottom: 0px;
+	}
+	
+	img.img-bottom2 {
+		margin-bottom: 60px;
+	}
+
+}

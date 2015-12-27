@@ -29,6 +29,7 @@
 	=========================== */
 
 .video-wrapper {
+	position: relative;	
 	width:80%; 
 	height:100%; 
 	margin:0 10% 20px 10%;
@@ -47,7 +48,6 @@
 }
 
 .description1 {
-	margin-top: 60px;
 	margin-bottom: 3%;
 }
 
@@ -65,4 +65,8 @@
 img.img-l {
 	margin-left: 3.1%;
 	margin-right: 3%;
+}
+
+img.img-bottom {
+	margin-bottom: 25px;
 }

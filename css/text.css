@@ -90,6 +90,7 @@ p.title {
 }
 
 .nav h1 {
+	text-align: center;
 	padding: 3px;
 	padding-bottom: 5px;
 	font-size: 10px;
@@ -127,7 +128,97 @@ a:visited {
 	margin-bottom: 3%;
 }
 
-@media screen and (max-width: 500px) { 
-	
+@media screen and (max-width: 882px) { 
+	.content h1 {
+		font-family: 'Galdeano', sans-serif;
+		font-size: 28px;
+	}
 
+}
+
+@media screen and (max-width: 680px) {
+
+	.content h1 {
+		margin-bottom: 3%;
+	}
+
+	p.title {
+		text-align: center;
+		margin-top: 4px;
+		margin-bottom: 3%;
+		margin-right:0;
+		width: 100%;
+	}
+
+		.container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.content-left {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.nav {
+		position: fixed;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content:space-between;
+		width: 100%;
+		padding-top: 30px;
+		padding-bottom: 10px;
+		margin-top: 0;
+		height:auto;
+		z-index: 20;
+		background-color: white;	
+	}
+
+	.content {
+		position: relative;
+		margin-top: 0px;
+		width: 96%;
+		padding-left: 3%;
+		padding-right: 3%;
+		
+		border-bottom: 1px solid rgba(0,0,0,0.3);
+		overflow-x:hidden;
+	}
+
+	/*info right*/
+	
+	.info-right {
+		display: flex;
+		flex-wrap: wrap;
+		flex-flow: center;
+		justify-content:space-between;
+		width: 90%;
+		height: 100%;
+		margin-left: 5%	
+	}
+
+	.info-right p {
+		margin-top: 120px;
+		margin-bottom: 40px;
+	}
+
+	.info-right img {
+		width: 40%;
+		height: 40%;
+	}
+
+	.info-right img.logo {
+		margin-bottom: 0px;
+	}
+
+	.info-right img.sub {
+		display: none;
+	}
+
+	.info-right a:link,
+	.info-right a:visited {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+	}
 }
