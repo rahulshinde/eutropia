@@ -80,6 +80,12 @@ h1, p {
 	font-family: monospace;
 }
 
+p.title {
+	text-align: right;
+	margin-right: 10px;
+	width: 100%;
+}
+
 .content h1 {
 	font-family: 'Galdeano', sans-serif;
 	font-size: 36px;
