@@ -121,3 +121,8 @@ a:link,
 a:visited {
 	color: black;
 }
+
+.description {
+	margin-top: 20px;
+	margin-bottom: 3%;
+}
