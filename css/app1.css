@@ -1,1 +1,104 @@
-.container{display:flex;flex-wrap:wrap;height:100%;width:100%;background-color:#fff}.img-container img{width:45%}img.img-l{margin-left:3.1%;margin-right:3%}img.img-small{width:17.5%;margin-top:3%;margin-right:3%}img#img-first{margin-left:9.5%}img#img-last{margin-right:0}img.img-bottom{margin-bottom:20px}@media screen and (max-width:680px){.img-container img{width:100%;margin-left:0;margin-right:0}.img-container>.img-l{margin-bottom:20px}img.img-small{width:48%}img#img-first{margin-left:0}img#img-first,img#img-middle{margin-bottom:0}img#img-last,img#img-middle{margin-left:3.2%}}@media screen and (max-width:555px){img.img-small{width:100%;margin-left:0;margin-right:0}}
+/* 	================= 
+		APP1.CSS
+	================= */
+
+/* 	==============================================
+		BEGIN AUTHOR STYLING
+	============================================== */
+
+
+* {
+	/*background-color: rgba(255, 0, 0, 0.2);*/
+	/*outline: 1px solid rgb(0,0,255);*/
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+/* 	===========================
+		IMG
+	=========================== */
+
+.img-container img {
+	width: 45%;
+}
+
+img.img-l {
+	margin-left: 3.1%;
+	margin-right: 3%;
+}
+
+img.img-small {
+	width: 17.5%;
+	margin-top: 3%;
+	margin-right: 3%;
+}
+
+img#img-first {
+	margin-left: 9.5%;
+}
+
+img#img-last {
+	margin-right: 0;
+}
+
+img.img-bottom {
+	margin-bottom: 20px;
+}
+
+/* 	=============================
+		MEDIA QUERIES
+	============================= */
+
+@media screen and (max-width: 680px) {
+
+	.img-container img {
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.img-container > .img-l {
+		margin-bottom: 20px;
+	}
+
+	img.img-small {
+		width: 48%;
+	}
+
+	img#img-first {
+		margin-left: 0;
+	}
+
+	img#img-first,
+	img#img-middle {
+		margin-bottom: 0;
+	}
+
+	img#img-middle,
+	img#img-last {
+		margin-left: 3.2%;
+	}
+
+
+}
+
+@media screen and (max-width: 555px) {
+
+	img.img-small {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	img#img-middle,
+	img#img-last {
+		margin-left: 0;
+	}
+
+}
