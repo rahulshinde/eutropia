@@ -50,3 +50,18 @@ img.img-full2 {
 img.img-bottom {
 	margin-bottom: 20px;
 }
+
+@media screen and (max-width: 680px) {
+	img.img-half {
+		margin-left: 10%;
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 555px) {
+
+	img.img-half {
+		width: 100%;
+		margin-left: 0%;
+	}
+}
