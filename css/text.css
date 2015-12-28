@@ -143,6 +143,10 @@ a:visited {
 		font-size: 28px;
 	}
 
+	p.title {
+		margin-top: 2px;
+	}
+
 }
 
 @media screen and (max-width: 680px) {
@@ -150,6 +154,10 @@ a:visited {
 	.content h1 {
 		margin-bottom: 3%;
 		margin-top: 20px;
+	}
+
+	h1.story-text {
+		margin-top: 0px;
 	}
 
 	p.title {
