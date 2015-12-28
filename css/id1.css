@@ -161,6 +161,7 @@ img.img-bottom2 {
 	.p1 h1,
 	.p2 h1,
 	.p3 h1 {
+		background-color: rgba(0,0,0,0);
 		z-index: 10;
 
 	}

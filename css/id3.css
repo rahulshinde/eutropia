@@ -137,9 +137,14 @@ img.img-bottom2 {
 		overflow-y:hidden;
 	}
 
+	.id1-content p {
+		/*margin-top: 20px;*/
+	}
+
 	.p1 h1,
 	.p2 h1,
 	.p3 h1 {
+		background-color: rgba(0,0,0,0);
 		z-index: 10;
 
 	}
@@ -152,6 +157,41 @@ img.img-bottom2 {
 
 	img.img-bottom1 {
 		margin-bottom: 65px;
+	}
+
+}
+
+@media screen and (max-width: 555px) {
+
+	.p1,
+	.p2,
+	.p3 {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		border-right:none;
+
+	}
+
+	.p2,
+	.p3 {
+		/*margin-top: 100px;*/
+	}
+
+	.p1 h1,
+	.p2 h1,
+	.p3 h1 {
+		width: 100%;
+		z-index: 10;
+	
+	}
+
+	img.img-bottom1 {
+		margin-bottom: 65px;
+	}
+	
+	img.img-bottom3 {
+		margin-bottom: 45px;
 	}
 
 }
