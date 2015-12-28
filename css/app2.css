@@ -50,3 +50,28 @@ img.img-full {
 img.img-bottom {
 	margin-bottom: 20px;
 }
+
+/* 	=============================
+		MEDIA QUERIES
+	============================= */
+
+@media screen and (max-width: 680px) {
+	img.img-top {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	img.img-l {
+		margin-bottom: 3%;
+	}
+}
+
+@media screen and (max-width: 555px) {
+	.img-container img {
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0;
+	}
+
+
+}
