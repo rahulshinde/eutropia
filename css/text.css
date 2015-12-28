@@ -64,6 +64,15 @@ table {
 	/*outline: 1px solid rgb(0,0,255);*/
 }
 
+
+/* 	===========================
+		NAV
+	=========================== */
+	
+	#mobile {
+		display: none;
+	}
+
 /* 	===========================
 		TYPOGRAPHY
 	=========================== */
@@ -220,5 +229,18 @@ a:visited {
 		padding-top: 20px;
 		padding-bottom: 20px;
 		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 555px) {
+
+	#web {
+		display: none;
+	}
+
+	#mobile {
+		padding-left: 10px;
+		padding-right: 10px;
+		display: block;
 	}
 }
